@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DangKy"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:background="@drawable/total"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:animationCache="true"
+        android:background="@android:color/holo_blue_light" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ĐĂNG KÝ"
+        android:textStyle="bold"
+        android:textSize="60dp" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="Tên người dùng: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
+    <TextView
+        android:textStyle="bold"
+        android:text="Tên đăng nhập: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <EditText
+
+        android:id="@+id/editTextTenDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp" />
+    <TextView
+        android:textStyle="bold"
+        android:text="Mật khẩu: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <EditText
+
+        android:id="@+id/editMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="550dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:text="Email: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <EditText
+
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="450dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:text="Phone: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <EditText
+
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="550dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/EditButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/DangKybutton"
+            style="?android:textAppearanceSmall"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Đăng Ký" />
+
+    </LinearLayout>
+
+</LinearLayout>
